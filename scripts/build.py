@@ -50,8 +50,8 @@ else:  # Linux, OSX, etc.
         MID2AGB = 'deps/mid2agb.exe'
         GR = "deps/grit.exe"
     else:
-        WAV2AGB = 'wav2agb'
-        MID2AGB = 'mid2agb'
+        WAV2AGB = '../bin/wav2agb'
+        MID2AGB = '../bin/mid2agb'
         GR = "grit"
 
     OBJCOPY = PREFIX + 'objcopy'
